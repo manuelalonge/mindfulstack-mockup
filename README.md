@@ -1,4 +1,4 @@
-# Mobile first Website
+# Mobile First Website
 
 ## Project Description
 
