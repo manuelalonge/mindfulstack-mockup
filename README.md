@@ -1,4 +1,4 @@
-# Mobile First Website
+# Mobile First Website (MindfulStack Mock Up)
 
 ## Project Description
 
@@ -26,4 +26,4 @@ Agile
 
 ## Deployment link
 
-https://mobile-first-exercise-alonge.netlify.app/
+https://mindfulstack-mockup.netlify.app/
