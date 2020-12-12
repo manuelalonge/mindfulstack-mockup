@@ -95,3 +95,34 @@ p {
     margin: 0;
     padding: 0;
 }
+
+.section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+.card__content {
+    padding: 1.5em;
+}
+
+
+/* Section C*/
+
+.section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+
+/* Section D / Boxes */
+
+.section-d .box {
+    padding: 2em;
+    color: #fff;
+}
+
+.section-d .box:first-child {
+    background: #2690d4;
+}
