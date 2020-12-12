@@ -141,3 +141,35 @@ p {
     color: #2690d4;
     text-decoration: none;
 }
+
+
+/* Media Queries */
+
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+    .section-a .content__text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    .section-a .content__text p {
+        padding-top: 0;
+    }
+    .content__wrap,
+    .section-b ul {
+        grid-column: 2/4;
+    }
+    .box,
+    .main__footer div {
+        grid-column: span 2;
+    }
+    .section-b ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .section-b li {
+        width: 31%;
+    }
+}
